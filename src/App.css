@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Globals */
+html, #root, body {
+  height: 100%;
+  margin: 0;
   display: flex;
   flex-direction: column;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header NEED TO FIGURE OUT HOW TO KEEP HEADER ON TOP */
+header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #444444;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.header-content {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  color: #acacac;
+}
+
+.nav-link.active {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+/* Home */
+#home {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.title-container {
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-container {
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer */
+footer {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-top: 1px solid #444444;
+  width: 100%;
+  padding-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-content {
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.icon-container {
+  display: flex;
+  gap: 8px
+}
+
+.icon-link-hover {
+  transition: transform 0.3s ease;
+}
+
+.icon-link-hover:hover img {
+  transform: var(--bs-icon-link-transform);
 }
