@@ -16,28 +16,28 @@ export default function Header() {
                         <Link 
                             className={location.pathname==="/home" ? "nav-link active" : "nav-link"} 
                             aria-current="page" 
-                            href="/home"
+                            to="/home"
                         >
                             Home
                         </Link>
 
                         <Link
                             className={location.pathname==="/projects" ? "nav-link active" : "nav-link"}
-                            href="/projects"
+                            to="/projects"
                         >
                             Projects
                         </Link>
 
                         <Link 
                             className={location.pathname==="/experience" ? "nav-link active" : "nav-link"}
-                            href="/experience"
+                            to="/experience"
                         >
                             Experience
                         </Link>
 
                         <Link 
                             className={location.pathname==="/education" ? "nav-link active" : "nav-link"}
-                            href="/education"
+                            to="/education"
                         >
                             Education
                         </Link>
