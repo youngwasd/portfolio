@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 export default function Header() {
     const location = useLocation();
@@ -13,34 +13,34 @@ export default function Header() {
                     {/* <a className="btn btn-primary" href="resume/YoungKim_Resume_2025.pdf" download="resume.pdf">Download Resume/CV</a> */}
                     
                     <nav className="nav nav-underline justify-content-end">
-                        <a 
-                            className={location.pathname==="/" ? "nav-link active" : "nav-link"} 
+                        <Link 
+                            className={location.pathname==="/home" ? "nav-link active" : "nav-link"} 
                             aria-current="page" 
-                            href="/"
+                            href="/home"
                         >
                             Home
-                        </a>
+                        </Link>
 
-                        <a
+                        <Link
                             className={location.pathname==="/projects" ? "nav-link active" : "nav-link"}
                             href="/projects"
                         >
                             Projects
-                        </a>
+                        </Link>
 
-                        <a 
+                        <Link 
                             className={location.pathname==="/experience" ? "nav-link active" : "nav-link"}
                             href="/experience"
                         >
                             Experience
-                        </a>
+                        </Link>
 
-                        <a 
+                        <Link 
                             className={location.pathname==="/education" ? "nav-link active" : "nav-link"}
                             href="/education"
                         >
                             Education
-                        </a>
+                        </Link>
                     </nav>
                 </div>
             </div>
