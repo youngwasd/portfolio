@@ -10,6 +10,8 @@ export default function Header() {
                 <h1 className="m-0 fs-3">Young's Page</h1>
 
                 <div className="tabs">
+                    {/* <a className="btn btn-primary" href="resume/YoungKim_Resume_2025.pdf" download="resume.pdf">Download Resume/CV</a> */}
+                    
                     <nav className="nav nav-underline justify-content-end">
                         <a 
                             className={location.pathname==="/" ? "nav-link active" : "nav-link"} 

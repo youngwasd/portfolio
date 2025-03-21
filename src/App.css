@@ -99,7 +99,8 @@ header {
 #card-container {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 55px;
+  /* align-items: center; */ /* uncomment this as you add more to the other tech cards */
+  justify-content: center;
   gap: 2rem;
   color: white;
 }
@@ -174,6 +175,23 @@ header {
   justify-content: center;
   flex-direction: column;
 }
+
+/* Experience */
+#experience {
+  display: flex;
+  margin-top: 90px;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Education */
+#education {
+  display: flex;
+  margin-top: 90px;
+  align-items: center;
+  flex-direction: column;
+}
+
 
 /*
 #home {

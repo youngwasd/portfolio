@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    gitHubIcon, msIcon, aws, bootstrap, docker, excel, flask, gimp, git, c, java, javascript, css, html,
+    gitHubIcon, msIcon, aws, bootstrap, docker, flask, gimp, git, c, java, javascript, css, html,
     mysql, node, postgres, python, react, google, intellij, junit, r, unity, pycharm, postman, ubuntu, erlang,
     overleaf, pfp
 } from './icons';
@@ -220,11 +220,6 @@ export default function Home() {
                             <div className="logo-container">
                                 <img src={gimp} class="img-thumbnail" alt="GIMP"></img>
                                 <span className="logo-text">GIMP</span>
-                            </div>
-
-                            <div className="logo-container">
-                                <img src={excel} class="img-thumbnail" alt="Excel"></img>
-                                <span className="logo-text">Excel</span>
                             </div>
 
                             <div className="logo-container">
