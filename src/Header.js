@@ -14,9 +14,9 @@ export default function Header() {
                     
                     <nav className="nav nav-underline justify-content-end">
                         <Link 
-                            className={location.pathname==="/home" ? "nav-link active" : "nav-link"} 
+                            className={location.pathname==="/" ? "nav-link active" : "nav-link"} 
                             aria-current="page" 
-                            to="/home"
+                            to="/"
                         >
                             Home
                         </Link>
