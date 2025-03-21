@@ -1,6 +1,7 @@
 /* Globals */
 html, #root, body {
   height: 100%;
+  width: 100%;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -54,7 +55,7 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  margin-top: 70px;
+  margin-top: 90px;
   width: 100%;
   padding: 0 20%;
 }
@@ -157,35 +158,72 @@ header {
   opacity: 1;
 }
 
+/* Projects */
+#projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 90px;
+  width: 100%;
+}
+
+#project-container {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/*
+#home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 90px;
+  width: 100%;
+  padding: 0 20%;
+}
+
+.title-container {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+*/
+
 /* Footer */
 footer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   border-top: 1px solid #444444;
   width: 100%;
   padding: 20px;
+  margin-top: auto;
 }
 
 .footer-content {
   width: 60%;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .text-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 4px;
 }
 
 .icon-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .icon-link-hover {

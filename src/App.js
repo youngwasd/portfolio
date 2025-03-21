@@ -11,7 +11,7 @@ import Education from './Education';
 function App() {
   return (
     <div className="d-flex h-100 overflow-auto">
-			<div className="d-flex w-100 h-100 p-3 mx-auto flex-column">
+			<div className="d-flex w-100 h-100 mx-auto flex-column">
 				<Header />
 
 				<Routes>
