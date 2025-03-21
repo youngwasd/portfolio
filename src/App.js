@@ -10,13 +10,13 @@ import Education from './Education';
 
 function App() {
   return (
-    <div className="d-flex h-100 overflow-auto bg-dark text-white">
+    <div className="d-flex h-100 overflow-auto">
 			<div className="d-flex w-100 h-100 p-3 mx-auto flex-column">
 				<Header />
 
 				<Routes>
-					<Route index element={<Home/>} />
 					<Route path="/" element={<Outlet />}>
+						<Route index element={<Home/>} />
 						<Route path="/home" element={<Home />} />
 						<Route path="/projects" element={<Projects />} />
 						<Route path="/experience" element={<Experience />} />

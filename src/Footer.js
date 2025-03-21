@@ -1,7 +1,5 @@
 import React from 'react';
-import linkedInIcon from './icons/linkedin.svg';
-import gitHubIcon from './icons/github.svg';
-import gmailIcon from './icons/gmail.svg';
+import { linkedInIcon, gitHubIcon, gmailIcon } from './icons';
 
 export default function Footer() {
     return (
