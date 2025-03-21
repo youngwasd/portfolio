@@ -29,5 +29,6 @@ import postman from './icons/postman.svg';
 import ubuntu from './icons/ubuntu.svg';
 import erlang from './icons/erlang.svg';
 import overleaf from './icons/overleaf.svg';
+import pfp from './icons/cat.png'
 
-export { linkedInIcon, gitHubIcon, gmailIcon, msIcon, aws, bootstrap, docker, excel, flask, gimp, git, c, java, javascript, css, html, mysql, node, postgres, python, react, google, intellij, junit, r, unity, pycharm, postman, ubuntu, erlang, overleaf };
+export { linkedInIcon, gitHubIcon, gmailIcon, msIcon, aws, bootstrap, docker, excel, flask, gimp, git, c, java, javascript, css, html, mysql, node, postgres, python, react, google, intellij, junit, r, unity, pycharm, postman, ubuntu, erlang, overleaf, pfp };

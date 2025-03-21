@@ -51,26 +51,41 @@ header {
 /* Home */
 #home {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
   margin-top: 70px;
-  flex-direction: column;
-  flex-grow: 1;
   width: 100%;
+  padding: 0 20%;
 }
 
 .title-container {
   width: 60%;
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.pfp {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pfp img {
+  background-color: #212529;
+  width: 100%;
+  border-radius: 50%;
+  height: auto;
 }
 
 /* Technology Stack */
 .tech-container {
   width: 60%;
   margin: 0 auto;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .card {

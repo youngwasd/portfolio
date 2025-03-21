@@ -2,43 +2,49 @@ import React from 'react';
 import {
     gitHubIcon, msIcon, aws, bootstrap, docker, excel, flask, gimp, git, c, java, javascript, css, html,
     mysql, node, postgres, python, react, google, intellij, junit, r, unity, pycharm, postman, ubuntu, erlang,
-    overleaf
+    overleaf, pfp
 } from './icons';
 
 export default function Home() {
     return (
-        <div id="home">
-            <div className="title-container">
-                <p className="justify-content-start fs-2">Hi, I am Young</p>
-                <p 
-                    className="text-wrap mb-2 fs-5"
-                    style={{ width: "30rem" }}
-                >
-                    I am currently pursuing a Master of Science in Computer Science at Seattle University, building on my Bachelor's degree from the University of Washington Tacoma. My academic background is complemented by hands-on experience in software engineering, artificial intelligence, and competitive programming.
-                </p>
+        <>
+            <div id="home">
+                <div className="title-container">
+                    <p className="justify-content-start fs-2">Hi, I'm Young</p>
+                    <p 
+                        className="text-wrap mb-2 fs-5"
+                        style={{ width: "30rem" }}
+                    >
+                        I am currently pursuing a Master of Science in Computer Science at Seattle University, building on my Bachelor's degree from the University of Washington Tacoma. My academic background is complemented by hands-on experience in software engineering, artificial intelligence, and competitive programming.
+                    </p>
 
-                <p
-                    className="text-wrap mb-2 fs-5"
-                    style={{ width: "30rem" }}
-                >
-                    I have contributed to multiple projects, including developing evolutionary AI simulations using the NEAT algorithm and designing browser-based games. I thrive in collaborative environments and am passionate about clean code practices, iterative development, and problem-solving. 
-                </p>
+                    <p
+                        className="text-wrap mb-2 fs-5"
+                        style={{ width: "30rem" }}
+                    >
+                        I have contributed to multiple projects, including developing evolutionary AI simulations using the NEAT algorithm and designing browser-based games. I thrive in collaborative environments and am passionate about clean code practices, iterative development, and problem-solving. 
+                    </p>
 
-                <p
-                    className="text-wrap mb-2 fs-5"
-                    style={{ width: "30rem" }}
-                >
-                    As an ICPC competitor, I've honed my algorithmic skills under pressure, and as a research assistant, I've co-authored papers and explored new AI modeling techniques. I am always eager to learn, innovate, and apply my knowledge to real-world challenges.
-                </p>
+                    <p
+                        className="text-wrap mb-2 fs-5"
+                        style={{ width: "30rem" }}
+                    >
+                        As an ICPC competitor, I've honed my algorithmic skills under pressure, and as a research assistant, I've co-authored papers and explored new AI modeling techniques. I am always eager to learn, innovate, and apply my knowledge to real-world challenges.
+                    </p>
 
-                <p
-                    className="text-wrap mb-2 fs-5"
-                    style={{ width: "30rem" }}
-                >
-                    Feel free to explore my projects and connect with me through LinkedIn or GitHub.
-                </p>
+                    <p
+                        className="text-wrap mb-2 fs-5"
+                        style={{ width: "30rem" }}
+                    >
+                        Feel free to explore my projects and connect with me through LinkedIn or GitHub.
+                    </p>
+                </div>
+            
+                <div className="pfp">
+                        <img src={pfp} class="img-thumbnail" alt="cat"></img>
+                </div>
             </div>
-
+    
             <div className="tech-container">
                 <p className="justify-content-start fs-2"><br /> Technology</p>
                 <p className="fs-5">Here are the tools I have experience with.</p>
@@ -208,7 +214,6 @@ export default function Home() {
                         </div>
                     </div>
 
-
                     <div className="card mb-3" style={{ maxWidth: "20rem" }}>
                         <div className="card-header">Other</div>
                         <div className="card-body">
@@ -235,6 +240,6 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
