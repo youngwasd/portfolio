@@ -28,6 +28,13 @@ import postman from './icons/postman.svg';
 import ubuntu from './icons/ubuntu.svg';
 import erlang from './icons/erlang.svg';
 import overleaf from './icons/overleaf.svg';
-import pfp from './icons/cat.png'
+import pfp from './icons/cat.png';
+import neat from './icons/neat.png';
+import holo from './icons/holo.png';
+import weather from './icons/weather.png';
+import flappybird from './icons/flappybird.png';
+import calc from './icons/calc.png';
+import quote from './icons/quote.png';
+import ai from './icons/ai.png';
 
-export { linkedInIcon, gitHubIcon, gmailIcon, msIcon, aws, bootstrap, docker, flask, gimp, git, c, java, javascript, css, html, mysql, node, postgres, python, react, google, intellij, junit, r, unity, pycharm, postman, ubuntu, erlang, overleaf, pfp };
+export { linkedInIcon, gitHubIcon, gmailIcon, msIcon, aws, bootstrap, docker, flask, gimp, git, c, java, javascript, css, html, mysql, node, postgres, python, react, google, intellij, junit, r, unity, pycharm, postman, ubuntu, erlang, overleaf, pfp, neat, holo, weather, flappybird, calc, quote, ai };

@@ -30,7 +30,7 @@ header {
 }
 
 .header-content {
-  width: 60%;
+  width: 61.5%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -94,6 +94,8 @@ header {
   border: none;
   height: auto;
   width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 #card-container {
@@ -107,7 +109,7 @@ header {
 
 .card-header {
   border: none;
-  border-bottom: 1px solid #d69696;
+  border-bottom: 2px solid #d69696;
   color: white;
   font-weight: bold;
 }
@@ -176,6 +178,23 @@ header {
   flex-direction: column;
 }
 
+.project-card-body {
+  background-color: #323437;
+  color: white;
+  border-radius: 10px;
+}
+
+.card-title {
+  border-bottom: 2px solid #d69696;
+}
+
+.card-img-top {
+  object-fit: contain;
+  height: 200px;
+  width: 100%;
+  background-color: #252525;
+}
+
 /* Experience */
 #experience {
   display: flex;
@@ -192,26 +211,6 @@ header {
   flex-direction: column;
 }
 
-
-/*
-#home {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  margin-top: 90px;
-  width: 100%;
-  padding: 0 20%;
-}
-
-.title-container {
-  width: 60%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-*/
-
 /* Footer */
 footer {
   display: flex;
@@ -224,7 +223,7 @@ footer {
 }
 
 .footer-content {
-  width: 60%;
+  width: 61.5%;
   margin: 0 auto;
   display: flex;
   align-items: center;

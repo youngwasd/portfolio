@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import resume from "./resume/YoungKim_Resume_2025.pdf";
 
 export default function Header() {
     const location = useLocation();
@@ -9,8 +10,14 @@ export default function Header() {
             <div className="header-content">
                 <h1 className="m-0 fs-3">Young's Page</h1>
 
-                <div className="tabs">
-                    {/* <a className="btn btn-primary" href="resume/YoungKim_Resume_2025.pdf" download="resume.pdf">Download Resume/CV</a> */}
+                <div className="tabs d-flex gap-3">
+                    <a 
+                        className="btn btn-secondary btn-sm d-flex justify-content-center align-items-center fw-bold"
+                        href={resume}
+                        download="YoungKim_Resume_2025.pdf"
+                    >
+                        Download Resume/CV
+                    </a>
                     
                     <nav className="nav nav-underline justify-content-end">
                         <Link 
