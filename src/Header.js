@@ -12,7 +12,7 @@ export default function Header() {
 
                 <div className="tabs d-flex gap-3">
                     <a 
-                        className="btn btn-secondary btn-sm d-flex justify-content-center align-items-center fw-bold"
+                        className="btn btn-secondary btn-sm d-flex justify-content-center align-items-center fw-bold h-100 m-auto"
                         href={resume}
                         download="YoungKim_Resume_2025.pdf"
                     >
