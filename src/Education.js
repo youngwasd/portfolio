@@ -30,7 +30,7 @@ export default function Education() {
                                 <p className="card-subtitle text-wrap">
                                     Bachelor of Science in Computer Science & Systems,<br />Minor in Mathematics – Tacoma, WA <span className="mt-auto">2021 - 2024</span></p>
                                 <p className="card-text mt-2">
-                                    My transition from high school to university, facilitated by prior experience in the Running Start program, was seamless. Acquainted with the rigor of university-level coursework, I approached my studies with diligence and determination to attain a commendable GPA. Throughout my tenure at UWT, I maintained a consistent GPA of 3.81, earning recurrent placement on the Dean’s List. This steadfast commitment to academic excellence underscores my disciplined work ethic and adaptability in academic settings.
+                                    My transition from high school to university, facilitated by prior experience in the Running Start program, was seamless. Acquainted with the rigor of university-level coursework, I approached my studies with diligence and determination to attain a commendable GPA. Throughout my tenure at UW, I maintained a consistent GPA of 3.81, earning recurrent placement on the Dean’s List. This steadfast commitment to academic excellence underscores my disciplined work ethic and adaptability in academic settings.
                                 </p>
                             </div>
                         </div>

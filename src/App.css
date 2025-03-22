@@ -257,6 +257,39 @@ header {
   margin-bottom: 4px;
 }
 
+/* Contact */
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: auto;
+  width: 100%;
+}
+
+#contact-container {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.contact-link {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.contact-link:hover {
+  color: #cccccc;
+}
+
+.contactimg {
+  position: relative;
+  bottom: 5px;
+}
+
 /* Footer */
 footer {
   display: flex;

@@ -48,6 +48,13 @@ export default function Header() {
                         >
                             Education
                         </Link>
+
+                        <Link 
+                            className={location.pathname==="/contact" ? "nav-link active" : "nav-link"}
+                            to="/contact"
+                        >
+                            Contact
+                        </Link>
                     </nav>
                 </div>
             </div>

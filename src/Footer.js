@@ -15,7 +15,7 @@ export default function Footer() {
                         style={{ "--bs-icon-link-transform": "translate3d(0, -0.2rem, 0)" }}
                         href="https://www.linkedin.com/in/young-k-65b2042b1/"
                     >
-                        <img src={linkedInIcon} alt="LinkedIn" height={35} width={35}/>
+                        <img src={linkedInIcon} alt="LinkedIn" height={38} width={38}/>
                     </a>
 
                     <a 
