@@ -36,5 +36,8 @@ import flappybird from './icons/flappybird.png';
 import calc from './icons/calc.png';
 import quote from './icons/quote.png';
 import ai from './icons/ai.png';
+import seattleu from './icons/seattleu.png';
+import uw from './icons/uw.png';
+import pierce from './icons/pierce.png';
 
-export { linkedInIcon, gitHubIcon, gmailIcon, msIcon, aws, bootstrap, docker, flask, gimp, git, c, java, javascript, css, html, mysql, node, postgres, python, react, google, intellij, junit, r, unity, pycharm, postman, ubuntu, erlang, overleaf, pfp, neat, holo, weather, flappybird, calc, quote, ai };
+export { linkedInIcon, gitHubIcon, gmailIcon, msIcon, aws, bootstrap, docker, flask, gimp, git, c, java, javascript, css, html, mysql, node, postgres, python, react, google, intellij, junit, r, unity, pycharm, postman, ubuntu, erlang, overleaf, pfp, neat, holo, weather, flappybird, calc, quote, ai, seattleu, uw, pierce };

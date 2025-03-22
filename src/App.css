@@ -198,17 +198,63 @@ header {
 /* Experience */
 #experience {
   display: flex;
-  margin-top: 90px;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  margin-top: 90px;
+  width: 100%;
+}
+
+#experience-container {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.experience-card-body {
+  background-color: #323437;
+  color: white;
+  border-radius: 10px;
+}
+
+.experience-card-title {
+  margin-bottom: 4px;
+}
+
+.card-subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #d69696;
 }
 
 /* Education */
 #education {
   display: flex;
-  margin-top: 90px;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  margin-top: 90px;
+  width: 100%;
+}
+
+#education-container {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.education-card-body {
+  background-color: #323437;
+  color: white;
+  border-radius: 10px;
+}
+
+.education-card-title {
+  margin-bottom: 4px;
 }
 
 /* Footer */
