@@ -42,7 +42,7 @@ This personal portfolio website is designed to highlight my journey as a Softwar
 ## 🎯 Goals
 
 - Create a professional, interactive portfolio to showcase my skills and projects.
-- Provide an easy-to-navigate platform for recruiters and hiring managers to learn more about my experience.
+- Provide an easy-to-navigate platform for people to learn more about my experience.
 - Utilize React.js for smooth UI interactions and a modern, scalable structure.
 
 ---
