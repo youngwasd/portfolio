@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# :star2: Young Kim - Software Engineer Portfolio ![Alt text](https://github.com/your-username/portfolio/frog.gif)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio! This website is a hub to showcase my skills, experience, and passion for software engineering. It features my projects, educational background, and work experience, all in one place for easy access.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## :rocket: Live Demo
 
-### `npm start`
+:link: [Visit My Portfolio](https://youngwasd.github.io/portfolio/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## :brain: About This Project
 
-### `npm test`
+This personal portfolio website is designed to highlight my journey as a Software Engineer. The website includes sections showcasing:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Projects**: A collection of my development work, with links to GitHub repositories or live demos.
+- **Education**: A detailed breakdown of my academic background and achievements.
+- **Experience**: A summary of my professional work experience, skills, and key accomplishments.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :sparkles: Key Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Projects**: Easily browse through my technical projects with links to GitHub and live demos.
+- **Education**: View the details of my academic history and relevant coursework.
+- **Experience**: An overview of my professional career, skills, and work contributions.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## :bulb: Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Frontend**: HTML, CSS, JavaScript, React.js
+- **Styling**: Bootstrap, Custom CSS
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## :dart: Goals
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Create a professional, interactive portfolio to showcase my skills and projects.
+- Provide an easy-to-navigate platform for recruiters and hiring managers to learn more about my experience.
+- Utilize React.js for smooth UI interactions and a modern, scalable structure.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :mailbox_with_mail: Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Let’s connect!  
+:e_mail: Email: [youngk126621@gmail.com]  
+:briefcase: [LinkedIn](https://www.linkedin.com/in/young-k-65b2042b1/)  
+:cat: [GitHub](https://github.com/youngwasd)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## :paperclip: Resume
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can also download my resume here:  
+:page_facing_up: [Download My Resume](https://github.com/youngwasd/portfolio/src/resume/YoungKim_Resume_2025.pdf)
