@@ -1,16 +1,20 @@
-# :star2: Young Kim - Software Engineer Portfolio ![Alt text](https://github.com/your-username/portfolio/frog.gif)
+# 🌟 Young Kim - Software Engineer Portfolio
 
 Welcome to my portfolio! This website is a hub to showcase my skills, experience, and passion for software engineering. It features my projects, educational background, and work experience, all in one place for easy access.
 
----
-
-## :rocket: Live Demo
-
-:link: [Visit My Portfolio](https://youngwasd.github.io/portfolio/)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/youngwasd/portfolio/main/frog.gif" alt="Alt text" width="150px"/>
+</p>
 
 ---
 
-## :brain: About This Project
+## 🚀 Live Demo
+
+🔗 [Visit My Portfolio](https://youngwasd.github.io/portfolio/)
+
+---
+
+## 🧠 About This Project
 
 This personal portfolio website is designed to highlight my journey as a Software Engineer. The website includes sections showcasing:
 
@@ -20,7 +24,7 @@ This personal portfolio website is designed to highlight my journey as a Softwar
 
 ---
 
-## :sparkles: Key Features
+## ✨ Key Features
 
 - **Projects**: Easily browse through my technical projects with links to GitHub and live demos.
 - **Education**: View the details of my academic history and relevant coursework.
@@ -28,14 +32,14 @@ This personal portfolio website is designed to highlight my journey as a Softwar
 
 ---
 
-## :bulb: Tech Stack
+## 🎯 Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript, React.js
 - **Styling**: Bootstrap, Custom CSS
 
 ---
 
-## :dart: Goals
+## 🎯 Goals
 
 - Create a professional, interactive portfolio to showcase my skills and projects.
 - Provide an easy-to-navigate platform for recruiters and hiring managers to learn more about my experience.
@@ -43,16 +47,9 @@ This personal portfolio website is designed to highlight my journey as a Softwar
 
 ---
 
-## :mailbox_with_mail: Contact
+## 📬 Contact
 
 Let’s connect!  
-:e_mail: Email: [youngk126621@gmail.com]  
-:briefcase: [LinkedIn](https://www.linkedin.com/in/young-k-65b2042b1/)  
-:cat: [GitHub](https://github.com/youngwasd)
-
----
-
-## :paperclip: Resume
-
-You can also download my resume here:  
-:page_facing_up: [Download My Resume](https://github.com/youngwasd/portfolio/src/resume/YoungKim_Resume_2025.pdf)
+📧 Email: [youngk126621@gmail.com]  
+💼 [LinkedIn](https://www.linkedin.com/in/young-k-65b2042b1/)  
+🐱  [GitHub](https://github.com/youngwasd)
