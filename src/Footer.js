@@ -29,7 +29,7 @@ export default function Footer() {
                     <a 
                         className="icon-link icon-link-hover"
                         style={{ "--bs-icon-link-transform": "translate3d(0, -0.2rem, 0)" }}
-                        href="mailto:youngk126621@gmail.com"
+                        href="mailto:youngworking110@gmail.com"
                     >
                         <img src={gmailIcon} alt="Gmail" height={35} width={35}/>
                     </a>

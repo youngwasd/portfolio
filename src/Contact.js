@@ -13,10 +13,10 @@ export default function Contact() {
                 <div className="d-flex pb-3 gap-2" style={{ marginLeft: '-2px'}}>
                     <img className="contactimg" src={gmailIcon} alt="Gmail" height={35} width={35}/>
                     <a
-                        href="mailto:youngk126621@gmail.com"
+                        href="mailto:youngworking110@gmail.com"
                         className="contact-link"
                     >
-                        youngk126621@gmail.com
+                        youngworking110@gmail.com
                     </a>
                 </div>
 
