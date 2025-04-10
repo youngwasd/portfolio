@@ -39,5 +39,10 @@ import ai from './icons/ai.png';
 import seattleu from './icons/seattleu.png';
 import uw from './icons/uw.png';
 import pierce from './icons/pierce.png';
+import express from './icons/express-js.svg';
+import track from './icons/track.png';
+import vscode from './icons/vs-code.svg';
+import visualstudio from './icons/visual-studio.svg';
 
-export { linkedInIcon, gitHubIcon, gmailIcon, msIcon, aws, bootstrap, docker, flask, gimp, git, c, java, javascript, css, html, mysql, node, postgres, python, react, google, intellij, junit, r, unity, pycharm, postman, ubuntu, erlang, overleaf, pfp, neat, holo, weather, flappybird, calc, quote, ai, seattleu, uw, pierce };
+export { linkedInIcon, gitHubIcon, gmailIcon, msIcon, aws, bootstrap, docker, flask, gimp, git, c, java, javascript, css, html, mysql, node, postgres, python, react, google, intellij, junit, r, unity, pycharm, postman, ubuntu, erlang, overleaf, pfp, neat, holo, weather, flappybird, calc, quote, ai, seattleu, uw, pierce, express, track, vscode,
+visualstudio  };

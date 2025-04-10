@@ -2,7 +2,7 @@ import React from 'react';
 import {
     gitHubIcon, msIcon, aws, bootstrap, docker, flask, gimp, git, c, java, javascript, css, html,
     mysql, node, postgres, python, react, google, intellij, junit, r, unity, pycharm, postman, ubuntu, erlang,
-    overleaf, pfp
+    overleaf, pfp, express, vscode, visualstudio
 } from './icons';
 
 export default function Home() {
@@ -99,8 +99,13 @@ export default function Home() {
                         <div className="card-header">Backend</div>
                         <div className="card-body">
                             <div className="logo-container">
-                                <img src={node} class="img-thumbnail" alt="Node.JS"></img>
-                                <span className="logo-text">Node.JS</span>
+                                <img src={node} class="img-thumbnail" alt="Node.js"></img>
+                                <span className="logo-text">Node.js</span>
+                            </div>
+
+                            <div className="logo-container">
+                                <img src={express} class="img-thumbnail" alt="Express.js"></img>
+                                <span className="logo-text">Express.js</span>
                             </div>
                         </div>
                     </div>
@@ -109,8 +114,8 @@ export default function Home() {
                         <div className="card-header">Frontend</div>
                         <div className="card-body">
                             <div className="logo-container">
-                                <img src={react} class="img-thumbnail" alt="React.JS"></img>
-                                <span className="logo-text">React.JS</span>
+                                <img src={react} class="img-thumbnail" alt="React.js"></img>
+                                <span className="logo-text">React.js</span>
                             </div>
 
                             <div className="logo-container">
@@ -195,7 +200,17 @@ export default function Home() {
                             <div className="logo-container">
                                 <img src={unity} class="img-thumbnail" alt="Unity"></img>
                                 <span className="logo-text">Unity</span>
-                            </div>                            
+                            </div>
+
+                            <div className="logo-container">
+                                <img src={vscode} class="img-thumbnail" alt="VS Code"></img>
+                                <span className="logo-text">VS Code</span>
+                            </div>
+
+                            <div className="logo-container">
+                                <img src={visualstudio} class="img-thumbnail" alt="Visual Studio"></img>
+                                <span className="logo-text">Visual Studio</span>
+                            </div>
                         </div>
                     </div>
 

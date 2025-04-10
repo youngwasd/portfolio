@@ -1,21 +1,31 @@
 import React from 'react';
-import { neat, holo, flappybird, weather, quote, ai, calc, pfp } from './icons'
+import { neat, holo, flappybird, weather, quote, ai, calc, pfp, track } from './icons'
 
 export default function Projects() {
     return (
         <div id="projects">
             <div id="project-container">
                 <p className="fs-2">Projects</p>
-                <p className="fs-5">Here are the projects I worked on, there are some that I am working on that are not listed.</p>
+                <p className="fs-5">Here are the projects I am working on, some projects are not listed.</p>
 
-                <div className="row row-cols-1 row-cols-md-3 g-4 mb-5">
+                <div className="row row-cols-md-3 g-4 mb-5">
                     <div className="col">
                         <div className="card">
-                            <img src={neat} className="card-img-top" alt="Robot"></img>
+                            <img src={neat} className="card-img-top" alt="NEAT Hunting and Gathering"></img>
                             <div className="project-card-body p-3">
                                 <p className="card-title fs-5">NEAT Hunting and Gathering</p>
-                                <p className="card-text">I helped develope a web-based simulation using the NEAT algorithm, where AI robots evolve through prey/predator dynamics. I focused on implementing binocular vision to improve robot perception and survival. The project was built with HTML, CSS, and JavaScript and hosted on GitHub Pages.</p>
+                                <p className="card-text">I helped develop a web-based simulation using the NEAT algorithm, where AI robots evolve through prey/predator dynamics. I focused on implementing binocular vision to improve robot perception and survival. The project was built with HTML, CSS, and JavaScript and hosted on GitHub Pages.</p>
                                 <a href="https://osdreamscape.github.io/NEAT-Hunting-and-Gathering/" className="btn btn-primary">Click here to view</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col">
+                        <div className="card">
+                            <img src={track} className="card-img-top" alt="SeaTrack"></img>
+                            <div className="project-card-body p-3">
+                                <p className="card-title fs-5">SeaTrack</p>
+                                <p className="card-text">Web-based full-stack time-tracking application, built to be an efficient time and task tracking app. We are developing the app to allow for users to log, view, and manage their time through a clean intuitive interface. This application was built with React, Node.js, and Express.js. The user credentials and logs are managed using a PostGresSQL database.</p>
                             </div>
                         </div>
                     </div>
