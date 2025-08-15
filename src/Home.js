@@ -2,7 +2,7 @@ import React from 'react';
 import {
     gitHubIcon, msIcon, aws, bootstrap, docker, flask, gimp, git, c, java, javascript, css, html,
     mysql, node, postgres, python, react, google, intellij, junit, r, unity, pycharm, postman, ubuntu, erlang,
-    overleaf, pfp, express, vscode, visualstudio
+    overleaf, pfp, express, vscode, visualstudio, dotnet, typescript, sql, mongodb, nextjs, fastapi, azure, csharp
 } from './icons';
 
 export default function Home() {
@@ -15,28 +15,28 @@ export default function Home() {
                         className="text-wrap mb-2 fs-5"
                         style={{ width: "30rem" }}
                     >
-                        I am currently pursuing a Master of Science in Computer Science at Seattle University, building on my Bachelor's degree from the University of Washington Tacoma. My academic background is complemented by hands-on experience in software engineering, artificial intelligence, and competitive programming.
+                        I'm a software engineer and graduate student at Seattle University pursuing a Master's in Computer Science. I previously earned my Bachelor's degree from the University of Washington, where I focused on software engineering and artificial intelligence.
                     </p>
 
                     <p
                         className="text-wrap mb-2 fs-5"
                         style={{ width: "30rem" }}
                     >
-                        I have contributed to multiple projects, including developing evolutionary AI simulations using the NEAT algorithm and designing browser-based games. I thrive in collaborative environments and am passionate about clean code practices, iterative development, and problem-solving. 
+                        I've gained hands-on experience through internships at Bilimetrix and Hawl Technologies, where I worked on backend integrations, frontend state management, and AI-driven product features. My projects span from evolutionary AI simulations using the NEAT algorithm to full-stack web applications and research in AI modeling.
                     </p>
 
                     <p
                         className="text-wrap mb-2 fs-5"
                         style={{ width: "30rem" }}
                     >
-                        As an ICPC competitor, I've honed my algorithmic skills under pressure, and as a research assistant, I've co-authored papers and explored new AI modeling techniques. I am always eager to learn, innovate, and apply my knowledge to real-world challenges.
+                        I'm passionate about building reliable, user-focused software, whether that means optimizing backend systems, improving UI performance, or exploring new approaches to applied AI. I thrive in collaborative environments, value clean and maintainable code, and enjoy tackling complex technical challenges.
                     </p>
 
                     <p
                         className="text-wrap mb-2 fs-5"
                         style={{ width: "30rem" }}
                     >
-                        Feel free to explore my projects and connect with me through LinkedIn or GitHub.
+                        Feel free to explore my projects and connect with me on LinkedIn or GitHub!
                     </p>
                 </div>
             
@@ -53,9 +53,15 @@ export default function Home() {
                     <div className="card mb-3" style={{ maxWidth: "20rem" }}>
                         <div className="card-header">Languages</div>
                         <div className="card-body">
+
                             <div className="logo-container">
-                                <img src={java} class="img-thumbnail" alt="Java"></img>
-                                <span className="logo-text">Java</span>
+                                <img src={javascript} class="img-thumbnail" alt="JavaScript"></img>
+                                <span className="logo-text">JavaScript</span>
+                            </div>
+
+                            <div className="logo-container">
+                                <img src={typescript} class="img-thumbnail" alt="TypeScript"></img>
+                                <span className="logo-text">TypeScript</span>
                             </div>
 
                             <div className="logo-container"> 
@@ -64,8 +70,13 @@ export default function Home() {
                             </div>
 
                             <div className="logo-container">
-                                <img src={javascript} class="img-thumbnail" alt="JavaScript"></img>
-                                <span className="logo-text">JavaScript</span>
+                                <img src={java} class="img-thumbnail" alt="Java"></img>
+                                <span className="logo-text">Java</span>
+                            </div>
+                           
+                            <div className="logo-container">
+                                <img src={csharp} class="img-thumbnail" alt="C#"></img>
+                                <span className="logo-text">C#</span>
                             </div>
 
                             <div className="logo-container">
@@ -81,6 +92,11 @@ export default function Home() {
                             <div className="logo-container">
                                 <img src={css} class="img-thumbnail" alt="CSS"></img>
                                 <span className="logo-text">CSS</span>
+                            </div>
+
+                            <div className="logo-container">
+                                <img src={sql} class="img-thumbnail" alt="SQL"></img>
+                                <span className="logo-text">SQL</span>
                             </div>
 
                             <div className="logo-container">
@@ -107,6 +123,11 @@ export default function Home() {
                                 <img src={express} class="img-thumbnail" alt="Express.js"></img>
                                 <span className="logo-text">Express.js</span>
                             </div>
+
+                            <div className="logo-container">
+                                <img src={fastapi} class="img-thumbnail" alt="FastAPI"></img>
+                                <span className="logo-text">FastAPI</span>
+                            </div>
                         </div>
                     </div>
 
@@ -116,6 +137,11 @@ export default function Home() {
                             <div className="logo-container">
                                 <img src={react} class="img-thumbnail" alt="React.js"></img>
                                 <span className="logo-text">React.js</span>
+                            </div>
+
+                            <div className="logo-container">
+                                <img src={nextjs} class="img-thumbnail" alt="Next.js"></img>
+                                <span className="logo-text">Next.js</span>
                             </div>
 
                             <div className="logo-container">
@@ -133,6 +159,11 @@ export default function Home() {
                     <div className="card mb-3" style={{ maxWidth: "20rem" }}>
                         <div className="card-header">Frameworks & Libraries</div>
                         <div className="card-body">
+                            <div className="logo-container">
+                                <img src={dotnet} class="img-thumbnail" alt=".NET"></img>
+                                <span className="logo-text">.NET</span>
+                            </div>
+
                             <div className="logo-container">
                                 <img src={flask} class="img-thumbnail" alt="Flask"></img>
                                 <span className="logo-text">Flask</span>
@@ -153,6 +184,21 @@ export default function Home() {
                     <div className="card mb-3" style={{ maxWidth: "20rem" }}>
                         <div className="card-header">Tools</div>
                         <div className="card-body">
+                            <div className="logo-container">
+                                <img src={aws} class="img-thumbnail" alt="AWS"></img>
+                                <span className="logo-text">AWS</span>
+                            </div>
+
+                            <div className="logo-container">
+                                <img src={azure} class="img-thumbnail" alt="Azure"></img>
+                                <span className="logo-text">Azure</span>
+                            </div>
+
+                            <div className="logo-container">
+                                <img src={docker} class="img-thumbnail" alt="Docker"></img>
+                                <span className="logo-text">Docker</span>
+                            </div>  
+
                             <div className="logo-container">
                                 <img src={git} class="img-thumbnail" alt="Git"></img>
                                 <span className="logo-text">Git</span>
@@ -181,16 +227,7 @@ export default function Home() {
                             <div className="logo-container">
                                 <img src={intellij} class="img-thumbnail" alt="Intellij"></img>
                                 <span className="logo-text">Intellij</span>
-                            </div>  
-                            <div className="logo-container">
-                                <img src={aws} class="img-thumbnail" alt="AWS"></img>
-                                <span className="logo-text">AWS</span>
-                            </div>
-
-                            <div className="logo-container">
-                                <img src={docker} class="img-thumbnail" alt="Docker"></img>
-                                <span className="logo-text">Docker</span>
-                            </div>  
+                            </div> 
 
                             <div className="logo-container">
                                 <img src={overleaf} class="img-thumbnail" alt="Overleaf"></img>
@@ -218,14 +255,19 @@ export default function Home() {
                         <div className="card-header">Database</div>
                         <div className="card-body">
                             <div className="logo-container">
-                                <img src={mysql} class="img-thumbnail" alt="MySQL"></img>
-                                <span className="logo-text">MySQL</span>
-                            </div>
-
-                            <div className="logo-container">
                                 <img src={postgres} class="img-thumbnail" alt="PostGresSQL"></img>
                                 <span className="logo-text">PostGresSQL</span>
                             </div>
+
+                            <div className="logo-container">
+                                <img src={mongodb} class="img-thumbnail" alt="MongoDB"></img>
+                                <span className="logo-text">MongoDB</span>
+                            </div>
+
+                            <div className="logo-container">
+                                <img src={mysql} class="img-thumbnail" alt="MySQL"></img>
+                                <span className="logo-text">MySQL</span>
+                            </div>                            
                         </div>
                     </div>
 

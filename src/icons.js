@@ -43,6 +43,16 @@ import express from './icons/express-js.svg';
 import track from './icons/track.png';
 import vscode from './icons/vs-code.svg';
 import visualstudio from './icons/visual-studio.svg';
+import dotnet from './icons/dotnet.png';
+import typescript from './icons/typescript.png';
+import sql from './icons/sql.png';
+import mongodb from './icons/mongodb.png';
+import nextjs from './icons/nextjs.png';
+import fastapi from './icons/fastapi.png';
+import azure from './icons/azure.png';
+import csharp from './icons/csharp.png';
+
+
 
 export { linkedInIcon, gitHubIcon, gmailIcon, msIcon, aws, bootstrap, docker, flask, gimp, git, c, java, javascript, css, html, mysql, node, postgres, python, react, google, intellij, junit, r, unity, pycharm, postman, ubuntu, erlang, overleaf, pfp, neat, holo, weather, flappybird, calc, quote, ai, seattleu, uw, pierce, express, track, vscode,
-visualstudio  };
+visualstudio, dotnet, typescript, sql, mongodb, nextjs, fastapi, azure, csharp  };
