@@ -50,6 +50,6 @@ This personal portfolio website is designed to highlight my journey as a Softwar
 ## 📬 Contact
 
 Let’s connect!  
-📧 Email: [youngk126621@gmail.com]  
+📧 Email: [youngworking110@gmail.com]  
 💼 [LinkedIn](https://www.linkedin.com/in/young-k-65b2042b1/)  
 🐱  [GitHub](https://github.com/youngwasd)
