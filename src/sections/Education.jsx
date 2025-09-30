@@ -17,7 +17,7 @@ const timelineItems = [
         school: "Seattle University",
         date: "March 2025 - Present",
         description:
-            "I am set to begin my journey toward a Master's degree in Computer Science to build upon my strong academic foundation. With a strong commitment to deepen and expand my knowledge and skill in my field. I aim to engage in advanced learning, problem-solving, and communication, further preparing myself for an impactful contribution to the tech industry.",
+            "I am set to begin my journey toward a Master's degree in Computer Science to build upon my strong academic foundation, currently maintaining a 4.0/4.0 GPA. I aim to engage in advanced coursework and rigorous problem-solving to deepen my expertise in specialized areas of Computer Science, further preparing myself for an impactful contribution to the tech industry.",
     },
     {
         side: "right",
@@ -25,7 +25,7 @@ const timelineItems = [
         school: "University of Washington",
         date: "September 2021 - March 2024",
         description:
-            " My transition from high school to university, facilitated by prior experience in the Running Start program, was seamless. Acquainted with the rigor of university-level coursework, I approached my studies with diligence and determination to attain a commendable GPA. Throughout my tenure at UW, I maintained a consistent GPA of 3.81, earning recurrent placement on the Dean's List. This steadfast commitment to academic excellence underscores my disciplined work ethic and adaptability in academic settings.",
+            "My transition from high school to university, facilitated by prior experience in the Running Start program, was seamless. Acquainted with the rigor of university-level coursework, I approached my studies with diligence and determination to attain a commendable GPA. Throughout my tenure at UW, I maintained a consistent GPA of 3.81, earning recurrent placement on the Dean's List. This steadfast commitment to academic excellence underscores my disciplined work ethic and adaptability in academic settings.",
     },
     {
         side: "left",
