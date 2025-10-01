@@ -40,10 +40,10 @@ export const Contact = ({ setActive }) => {
                             <LuMail /> youngworking110@gmail.com
                         </a>
                         <a
-                            href="https://www.linkedin.com/in/young-k-65b2042b1/"
-                            className="flex items-center gap-2 hover-lift hover-lift-glow max-w-[22%]"
+                            href="https://www.linkedin.com/in/youngwasd/"
+                            className="flex items-center gap-2 hover-lift hover-lift-glow max-w-[26%]"
                         >
-                            <LuLinkedin /> young-k
+                            <LuLinkedin /> youngwasd
                         </a>
 
                         <a

@@ -256,7 +256,7 @@ export const Home = () => {
                         size="icon"
                         className="hover-lift"
                     >
-                        <a href="https://www.linkedin.com/in/young-k-65b2042b1/">
+                        <a href="https://www.linkedin.com/in/youngwasd/">
                             <LuLinkedin />
                         </a>
                     </Button>

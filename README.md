@@ -51,5 +51,5 @@ This personal portfolio website is designed to highlight my journey as a develop
 
 Let’s connect!  
 📧 Email: [youngworking110@gmail.com]  
-💼 [LinkedIn](https://www.linkedin.com/in/young-k-65b2042b1/)  
+💼 [LinkedIn](https://www.linkedin.com/in/youngwasd/)  
 🐱 [GitHub](https://github.com/youngwasd)

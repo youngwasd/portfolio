@@ -66,10 +66,10 @@ export const About = ({ setActive }) => {
                     </Button>
                     <Button asChild variant="outline">
                         <a
-                            href="https://www.linkedin.com/in/young-k-65b2042b1/"
+                            href="https://www.linkedin.com/in/youngwasd/"
                             className="flex items-center gap-2 hover-lift"
                         >
-                            <LuLinkedin /> young-k
+                            <LuLinkedin /> youngwasd
                         </a>
                     </Button>
                 </div>
