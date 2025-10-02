@@ -11,7 +11,6 @@ import {
 import {
     SiExpress,
     SiFastapi,
-    SiDotnet,
     SiTailwindcss,
     SiFlask,
     SiJunit5,
@@ -20,6 +19,7 @@ import {
     SiPostman,
     SiUnity,
     SiOverleaf,
+    SiBlazor,
 } from "react-icons/si";
 import { FaGitAlt, FaAws, FaDocker, FaUbuntu } from "react-icons/fa6";
 import { LuGithub } from "react-icons/lu";
@@ -58,6 +58,9 @@ export const Technology = ({ setActive }) => {
                         <span className="hover-lift">
                             <TbBrandVite size={iconSize} /> Vite
                         </span>
+                        <span className="hover-lift">
+                            <SiBlazor size={iconSize} /> Blazor
+                        </span>
                     </CardContent>
                 </Card>
             </Reveal>
@@ -75,6 +78,7 @@ export const Technology = ({ setActive }) => {
                         <span className="hover-lift">
                             <SiExpress size={iconSize} /> Express.js
                         </span>
+                        <span className="hover-lift">ASP.NET</span>
                         <span className="hover-lift">
                             <SiFastapi size={iconSize} /> FastAPI
                         </span>
@@ -89,9 +93,6 @@ export const Technology = ({ setActive }) => {
                     </CardHeader>
 
                     <CardContent className="tech-card-body">
-                        <span className="hover-lift">
-                            <SiDotnet size={iconSize} /> .NET
-                        </span>
                         <span className="hover-lift">
                             <SiTailwindcss size={iconSize} /> Tailwind CSS
                         </span>
@@ -158,12 +159,33 @@ export const Technology = ({ setActive }) => {
                             <SiUnity size={iconSize} /> Unity
                         </span>
                         <span className="hover-lift">
-                            <DiVisualstudio size={iconSize} /> Visual Studio
-                            (Code)
+                            <DiVisualstudio size={iconSize} /> VS
+                            (Code/Enterprise)
                         </span>
                         <span className="hover-lift">
                             <SiOverleaf size={iconSize} /> Overleaf
                         </span>
+                    </CardContent>
+                </Card>
+            </Reveal>
+
+            <Reveal className="outer-tech-card" slide={true}>
+                <Card className="tech-card">
+                    <CardHeader className="tech-card-header">
+                        <CardTitle>Soft Skills</CardTitle>
+                    </CardHeader>
+
+                    <CardContent className="tech-card-body">
+                        <span className="hover-lift">
+                            Agile Methodology / Scrum
+                        </span>
+                        <span className="hover-lift">Project Management</span>
+                        <span className="hover-lift">Debugging</span>
+                        <span className="hover-lift">
+                            Cross-Functional Collaboration
+                        </span>
+                        <span className="hover-lift">Communication</span>
+                        <span className="hover-lift">Problem-Solving</span>
                     </CardContent>
                 </Card>
             </Reveal>
