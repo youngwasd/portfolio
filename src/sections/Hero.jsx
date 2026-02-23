@@ -64,7 +64,7 @@ export const Hero = ({ setActive }) => {
                 <Button asChild variant="outline" className="hover-lift">
                     <a
                         href={resume}
-                        download="YoungKim_Resume_2025.pdf"
+                        download="YoungKim_Resume.pdf"
                         onClick={() => toast.success("Downloading Resume.")}
                     >
                         <LuDownload /> My Resume
