@@ -27,7 +27,7 @@ export const About = ({ setActive }) => {
                     <TypographyP className="max-w-[40%] text-center">
                         I'm a developer and graduate student at Seattle
                         University, pursuing a Master's in Computer Science with
-                        a 4.0 GPA. I earned my Bachelor's degree in Computer
+                        a 3.6 GPA. I earned my Bachelor's degree in Computer
                         Science with a Mathematics minor from the University of
                         Washington, where I co-authored research on evolutionary
                         AI and predator-prey simulations.

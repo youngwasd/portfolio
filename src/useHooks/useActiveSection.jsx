@@ -13,7 +13,7 @@ export const useActiveSection = (id, setActive) => {
                     }
                 });
             },
-            { threshold: 0.3, rootMargin: "-100px 0px -100px 0px" }
+            { threshold: 0.3, rootMargin: "-100px 0px -100px 0px" },
         );
 
         observer.observe(section);

@@ -13,11 +13,27 @@ import { TypographyH2, TypographyH4 } from "@/components/Typography";
 const timelineItems = [
     {
         side: "left",
+        title: "Software Consultant",
+        company: "Seastack Softare LLC",
+        date: "October 2025 - Present",
+        description:
+            "As a Software Consultant at SeaStack, I deliver full-stack features by modifying database schemas, backend APIs, and frontend components to improve workflow efficiency and data visibility. I regularly trace complex task and file-handling logic to resolve edge cases and ensure consistent end-to-end data flow from the database to the UI. I review and merge pull requests, resolve multi-branch conflicts, and help maintain a stable development environment during parallel feature development. Through Agile collaboration, pair programming, and detailed PR documentation, I focus on shipping reliable, well-tested features that reduce errors and improve overall system stability.",
+    },
+    {
+        side: "right",
+        title: "Web Developer",
+        company: "Edward Sr Aviation Advisors",
+        date: "January 2026 - Present",
+        description:
+            "As a Web Developer, I build and maintain a production React application using Vite, focusing on performance, responsiveness, and clean UI architecture. I design modular, reusable components and implement dynamic routing with React Router to create smooth navigation and intuitive user flows. I ensure layouts are fully responsive and accessible across devices using modern CSS techniques. My work emphasizes maintainability, scalability, and delivering a polished user experience in a live production environment.",
+    },
+    {
+        side: "left",
         title: "Lead Software Engineer Intern",
         company: "Hawl Technologies, LLC",
-        date: "June 2025 - Present",
+        date: "June 2025 - November 2025",
         description:
-            "I worked as a Full-Stack Engineer, designing scalable backend services that reduced user setup time by 40% through building CRUD APIs and secure key management features. On the frontend, I improved application responsiveness by 35% by refactoring React state management and optimizing data flow. In addition to hands-on development, I led my team by assigning tasks, testing implementations, and providing constructive feedback, ensuring code quality and alignment with project goals. I also enhanced the accuracy of AI-driven applications by integrating and fine-tuning our MCP server, improving data relevancy and user experience.",
+            "I worked as a Lead Software Engineer Intern, designing scalable backend services that reduced user setup time by 40% through building CRUD APIs and secure key management features. On the frontend, I improved application responsiveness by 35% by refactoring React state management and optimizing data flow. In addition to hands-on development, I led my team by assigning tasks, testing implementations, and providing constructive feedback, ensuring code quality and alignment with project goals. I also enhanced the accuracy of AI-driven applications by integrating and fine-tuning our MCP server, improving data relevancy and user experience.",
     },
     {
         side: "right",

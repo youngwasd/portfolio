@@ -1,6 +1,6 @@
 import { useActiveSection } from "../useHooks/useActiveSection";
 import { Button } from "@/components/ui/button";
-import resume from "@/resume/YoungKim_Resume_2025.pdf";
+import resume from "@/resume/YoungKim_Resume.pdf";
 import { toast } from "sonner";
 import { LuDownload } from "react-icons/lu";
 import { Badge } from "@/components/ui/badge";

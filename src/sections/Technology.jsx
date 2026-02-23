@@ -59,6 +59,9 @@ export const Technology = ({ setActive }) => {
                             <TbBrandVite size={iconSize} /> Vite
                         </span>
                         <span className="hover-lift">
+                            <SiTailwindcss size={iconSize} /> Tailwind CSS
+                        </span>
+                        <span className="hover-lift">
                             <SiBlazor size={iconSize} /> Blazor
                         </span>
                     </CardContent>
@@ -93,9 +96,6 @@ export const Technology = ({ setActive }) => {
                     </CardHeader>
 
                     <CardContent className="tech-card-body">
-                        <span className="hover-lift">
-                            <SiTailwindcss size={iconSize} /> Tailwind CSS
-                        </span>
                         <span className="hover-lift">
                             <SiFlask size={iconSize} /> Flask
                         </span>

@@ -75,6 +75,7 @@
     --sidebar-border: oklch(1 0 0 / 10%);
     --sidebar-ring: oklch(0.556 0 0);
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 @layer base {
@@ -363,7 +364,9 @@
     height: auto;
     max-width: var(--container-3xl);
     margin: 0 auto 2.5rem auto;
-    box-shadow: 0 -5px 10px var(--background), 0 5px 10px var(--background);
+    box-shadow:
+        0 -5px 10px var(--background),
+        0 5px 10px var(--background);
 }
 
 .outer-proj-card:nth-child(2) {
