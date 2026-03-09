@@ -59,7 +59,7 @@ const projects = [
         title: "Flappy Bird",
         description:
             "Developed a full-stack browser-based version of Flappy Bird using JavaScript and HTML. Building both the front-end and back-end components. Engineered custom game logic and asset handling, while attempting to ensure seamless gameplay across devices. Deployed the complete game to AWS S3, ensuring public accessibility and smooth performance.",
-        link: "http://flappybird-young.s3-website-us-west-2.amazonaws.com",
+        link: "https://youngwasd.github.io/flappybird/",
         github: "https://github.com/youngwasd/flappybird",
     },
     {

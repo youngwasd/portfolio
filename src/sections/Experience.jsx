@@ -22,7 +22,7 @@ const timelineItems = [
     {
         side: "right",
         title: "Web Developer",
-        company: "Edward Sr Aviation Advisors",
+        company: "Edward Sr Aviation Advisory",
         date: "January 2026 - Present",
         description:
             "As a Web Developer, I build and maintain a production React application using Vite, focusing on performance, responsiveness, and clean UI architecture. I design modular, reusable components and implement dynamic routing with React Router to create smooth navigation and intuitive user flows. I ensure layouts are fully responsive and accessible across devices using modern CSS techniques. My work emphasizes maintainability, scalability, and delivering a polished user experience in a live production environment.",
